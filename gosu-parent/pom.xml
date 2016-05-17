@@ -34,12 +34,12 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <dist.man.snapshotrepo.url>https://oss.sonatype.org/content/repositories/snapshots</dist.man.snapshotrepo.url>
+    <dist.man.snapshotrepo.url>http://gosu-lang.org/nexus/content/repositories/snapshots</dist.man.snapshotrepo.url>
   </properties>
 
   <repositories>
     <repository>
-      <id>ossrh</id>
+      <id>gosu-lang.org-snapshots</id>
       <name>Central Repository (snapshots)</name>
       <url>${dist.man.snapshotrepo.url}</url>
       <releases>
@@ -53,7 +53,7 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>ossrh</id>
+      <id>gosu-lang.org-snapshots</id>
       <url>${dist.man.snapshotrepo.url}</url>
     </snapshotRepository>
     <repository>
